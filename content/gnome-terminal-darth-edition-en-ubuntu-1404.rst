@@ -3,7 +3,8 @@ Gnome terminal darth edition en Ubuntu 14.04
 
 :slug: gnome-terminal-darth-edition-en-ubuntu-1404
 :date: 2014-09-10 11:19:10 UTC-05:00
-:tags: 
+:category: linux
+:tags: terminal
 :link: 
 :description: 
 :type: text

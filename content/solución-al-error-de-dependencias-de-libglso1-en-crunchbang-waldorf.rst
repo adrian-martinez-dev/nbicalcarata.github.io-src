@@ -3,7 +3,8 @@ Solución al error de dependencias de libGL.so.1 en Crunchbang Waldorf
 
 :slug: solución-al-error-de-dependencias-de-libglso1-en-crunchbang-waldorf
 :date: 2013/12/18 00:19:05
-:tags: 
+:category: linux
+:tags: crunchbang
 :link: 
 :description: 
 

@@ -3,7 +3,8 @@ Instalación y configuración de Light Table en Linux
 
 :slug: instalacion-y-configuracion-de-light-table-en-linux
 :date: 2014/01/09 17:39:30
-:tags: light table, ide, python, clojure, html
+:category: editor
+:tags: html, clojure
 :link: 
 :description: 
 

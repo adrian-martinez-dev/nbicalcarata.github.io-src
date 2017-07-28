@@ -3,7 +3,8 @@ Configurando Vim
 
 :slug: configurando-vim
 :date: 2014/02/10 03:00:48
-:tags: ide, vim
+:category: editor
+:tags: neovim
 :link: 
 :description: Configurando el editor de texto vim
 :type: text

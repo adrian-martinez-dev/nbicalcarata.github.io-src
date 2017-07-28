@@ -3,6 +3,7 @@ Hoja trampa de Tmux y Tmuxinator
 
 :slug: hoja-trampa-de-tmux-y-tmuxinator
 :date: 2014-08-01 16:16:43 UTC-05:00
+:category: linux
 :tags: tmux, tmuxinator
 :link: 
 :description: Lista de atajos de teclado de tmux y tmuxinator

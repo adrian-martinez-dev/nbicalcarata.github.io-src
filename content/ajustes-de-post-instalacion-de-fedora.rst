@@ -3,7 +3,8 @@ Ajustes de post instalación de Fedora
 
 :slug: ajustes-de-post-instalacion-de-fedora
 :date: 2014/03/04 18:05:03
-:tags: linux
+:category: linux
+:tags: fedora
 :link: 
 :description: Ajustes de post instalación de Fedora
 :type: text

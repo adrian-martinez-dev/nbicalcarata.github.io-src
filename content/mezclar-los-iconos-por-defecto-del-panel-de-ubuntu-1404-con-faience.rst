@@ -3,7 +3,8 @@ Mezclar los iconos por defecto del panel de Ubuntu 14.04 con Faience
 
 :slug: mezclar-los-iconos-por-defecto-del-panel-de-ubuntu-1404-con-faience
 :date: 2014-06-11 06:10:26 UTC
-:tags: linux
+:tags: ubuntu
+:category: linux
 :link: 
 :description: 
 :type: text

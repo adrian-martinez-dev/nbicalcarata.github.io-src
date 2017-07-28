@@ -3,7 +3,8 @@ Playonlinux sin audio en OpenSuse 13.1
 
 :slug: playonlinux-sin-audio-en-opensuse-131
 :date: 2014/02/11 14:50:12
-:tags: playonlinux, wine, opensuse, quake live, linux
+:category: linux
+:tags: playonlinux, wine, opensuse, quake live
 :link: 
 :description: Solucion al problema de audio de playonlinux en OpenSuse
 :type: text
