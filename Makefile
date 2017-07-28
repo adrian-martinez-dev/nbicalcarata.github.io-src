@@ -124,18 +124,19 @@ github: publish
 .PHONY: html help clean regenerate serve serve-global devserver stopserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
 
 PAGESDIR=$(INPUTDIR)/pages
+EDITOR=nvim
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
 SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-Z a-z)
 EXT ?= md
 
 newpost:
 ifdef NAME
-	echo "Title: $(NAME)" >  $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "Slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT)
-	echo "Date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo ":Title: $(NAME)" > $(INPUTDIR)/$(SLUG).$(EXT)
+	echo ":Slug: $(SLUG)" >> $(INPUTDIR)/$(SLUG).$(EXT)
+	echo ":Date: $(DATE)" >> $(INPUTDIR)/$(SLUG).$(EXT)
 	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
 	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
-	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
+	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT}
 else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make newpost NAME='"'"'Post Name'"'"
@@ -143,7 +144,7 @@ endif
 
 editpost:
 ifdef NAME
-	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT} &
+	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT}
 else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make editpost NAME='"'"'Post Name'"'"
