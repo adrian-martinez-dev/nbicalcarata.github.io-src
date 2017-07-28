@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Adri\xe1n Mart\xednez'
 SITENAME = u'Ziggurat Vertigo'
-SITESUBTITLE = u'Apuntes diversos y hojas trampa     '
+SITESUBTITLE = u'Apuntes diversos y hojas trampa'
 
 PATH = 'content'
 # THEME = "/home/adrian/pelican-themes/nikhil-theme"
