@@ -8,7 +8,7 @@ SITESUBTITLE = u'Apuntes diversos y hojas trampa'
 PATH = 'content'
 # THEME = "/home/adrian/pelican-themes/nikhil-theme"
 # THEME = "/home/adrian/pelican-themes/storm"
-THEME = "/home/adrian/pelican-themes/pujangga"
+THEME = "pujangga"
 
 TIMEZONE = 'America/Monterrey'
 
