@@ -3,7 +3,7 @@ Eliminando los bordes de ventana de GVim
 
 :slug: eliminando-los-bordes-de-ventana-de-gvim
 :date: 2014-06-14 19:42:16 UTC-05:00
-:tags: vim 
+:tags: vim, gvim 
 :category: editor
 :link: 
 :description: Como quitar los bordes de la ventana de GVim
