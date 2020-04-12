@@ -2,7 +2,7 @@
 :Slug: bloq-mayus-como-control-y-escape-con-caps2esc
 :Date: 2017-07-28 18:08:07
 :Category: utilidades
-:Tags: Fedora, Neovim
+:Tags: fedora, neovim
 
 El uso de vim se vuelve mas natural cuando se remapea la tecla bloq mayus como control, de esta forma los comandos son insertados de forma ergonomica, ya que la posicion de los dedos permanece la mayor parte del tiempo en el centro del teclado.
 Con caps2esc_ es posible hacer esto, ademas se vuelve una tecla escape adicional (cuando se teclea por si sola), y actua como control cuando se presiona en combinación con alguna otra tecla.
