@@ -51,7 +51,7 @@ ssh -R 4444:localhost:4444 vagrant@192.168.10.10
 ```
 En una terminal ejecutamos selenium y chromedriver como se indicó anteriormente:
 
-```
+```text
 java -Dwebdriver.chrome.driver='/home/adrian/chromedriver' -jar selenium-server-standalone-3.4.0.jar
 ```
 
