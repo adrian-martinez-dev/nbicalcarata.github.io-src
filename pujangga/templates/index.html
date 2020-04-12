@@ -9,9 +9,10 @@
             <div class="detail">
                 <header><h2>
                     <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">
-                        {{ article.title }}
+                      {{ article.title }}
                     </a>
-                </h2></header>
+                </h2></header> 
+                <div class="date">{{ article.locale_date }}</div>
 
                 {% if SHOW_CONTENT_SUMMARY_ON_INDEX %}
                    <div class="summary">{{ article.summary|striptags }}</div>
