@@ -1,10 +1,10 @@
-Primer post via terminal con Nikola
-###################################
+Primer post
+###########
 
-:slug: primer-post-via-terminal-con-nikola
+:slug: primer-post
 :date: 2013/12/17 01:31:38
 :tags: python
 :link:
-:description: Probando Nikola
+:description: Primer post
 
-Decidi hacerme un blog y me encontre esta herramienta escrita en python llamada Nikola, que sirve para generar paginas estaticas.
+Decidi hacerme un blog y éste es mi primer post.
