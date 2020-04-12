@@ -1,12 +1,12 @@
-Ajustes de post instalación de Fedora
-#####################################
+Ajustes de post instalación de Fedora 20
+########################################
 
 :slug: ajustes-de-post-instalacion-de-fedora
 :date: 2014/03/04 18:05:03
 :category: linux
 :tags: fedora
 :link: 
-:description: Ajustes de post instalación de Fedora
+:description: Ajustes de post instalación de Fedora 20
 :type: text
 
 Fedora es mi distro favorita, y esta es mi guía personal sobre los ajustes que hago despues de una instalación desde cero.
