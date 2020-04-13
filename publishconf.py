@@ -8,7 +8,7 @@ from __future__ import unicode_literals
 import os
 import sys
 sys.path.append(os.curdir)
-from pelicanconf import *
+from pelicanconf import * # noqa
 
 SITEURL = 'https://nbicalcarata.github.io'
 RELATIVE_URLS = False
@@ -23,4 +23,4 @@ DELETE_OUTPUT_DIRECTORY = False
 # Following items are often useful when publishing
 
 # DISQUS_SITENAME = ""
-# GOOGLE_ANALYTICS = ""
+GOOGLE_ANALYTICS = "UA-53375747-1"
