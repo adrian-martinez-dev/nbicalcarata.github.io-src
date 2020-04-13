@@ -30,4 +30,10 @@ make newpost NAME='Post name'
 ```
 pelican content
 ```
+### Update output folder submodule ###
+```
+git rm --cached output
+git rm output
+git submodule add git@github.com:nbicalcarata/nbicalcarata.github.io.git output
+```
 
