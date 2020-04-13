@@ -14,9 +14,7 @@ SITEURL = 'https://nbicalcarata.github.io'
 RELATIVE_URLS = False
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-FEED_ALL_RSS = 'rss/index.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
-
 
 DELETE_OUTPUT_DIRECTORY = False
 
