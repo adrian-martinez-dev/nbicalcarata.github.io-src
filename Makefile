@@ -83,8 +83,11 @@ github: publish
 	git push origin $(GITHUB_PAGES_BRANCH)
 
 deploy: publish
+	git add .
+	git commit -m "Deployed site"
+	git push
 	git -C $(OUTPUTDIR) add .
-	git -C $(OUTPUTDIR) commit -m "Generate pelican site" 
+	git -C $(OUTPUTDIR) commit -m "Generate pelican site"
 	git -C $(OUTPUTDIR) push origin master
 
 .PHONY: html help clean regenerate serve serve-global devserver publish github
