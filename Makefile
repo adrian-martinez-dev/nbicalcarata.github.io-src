@@ -82,6 +82,11 @@ github: publish
 	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
 	git push origin $(GITHUB_PAGES_BRANCH)
 
+deploy: publish
+	git -C $(OUTPUTDIR) add .
+	git -C $(OUTPUTDIR) commit -m "Generate pelican site" 
+	git -C $(OUTPUTDIR) push origin master
+
 .PHONY: html help clean regenerate serve serve-global devserver publish github
 
 PAGESDIR=$(INPUTDIR)/pages
