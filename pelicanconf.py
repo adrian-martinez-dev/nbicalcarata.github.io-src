@@ -15,6 +15,9 @@ DATE_FORMATS = {
 
 GITHUB_URL = 'http://github.com/nbicalcarata/'
 
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}, }
+
 SHOW_CONTENT_SUMMARY_ON_INDEX = True
 SUMMARY_MAX_LENGTH = 0
 
