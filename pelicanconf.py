@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Adrián Martínez'
 SITENAME = 'Adrián Martínez'
-SITESUBTITLE = 'Mis apuntes y hojas trampa'
+# SITESUBTITLE = 'Mis apuntes y hojas trampa'
 THEME = "pujangga"
 
 DATE_FORMATS = {
