@@ -30,6 +30,10 @@ make newpost NAME='Post name'
 ```
 pelican content
 ```
+or
+```
+make publish
+```
 ### Update output folder submodule ###
 ```
 git rm --cached output
