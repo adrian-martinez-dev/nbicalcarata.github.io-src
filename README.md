@@ -22,10 +22,6 @@ make devserver
 ```
 http://localhost:8000/
 ```
-#### New post ####
-```
-make newpost NAME='Post name'
-```
 #### Site generation ####
 ```
 pelican content
@@ -39,6 +35,10 @@ make publish
 git rm --cached output
 git rm output
 git submodule add git@github.com:nbicalcarata/nbicalcarata.github.io.git output
+```
+#### New post ####
+```
+make newpost NAME='Post name'
 ```
 ### Deploy  ###
 ```
