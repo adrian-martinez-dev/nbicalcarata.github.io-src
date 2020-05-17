@@ -40,4 +40,7 @@ git rm --cached output
 git rm output
 git submodule add git@github.com:nbicalcarata/nbicalcarata.github.io.git output
 ```
-
+### Deploy  ###
+```
+make deploy
+```
